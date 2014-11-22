@@ -84,6 +84,7 @@ function! s:LoadDFMColors()
 
   " Allow users to manually specify the color used to hide UI elements
   let s:NormalBG = get(g:, 'lite_dfm_normal_bg_' . s:context, s:LoadColor('Normal', 'bg'))
+  colorscheme aiwriter
 endfunction
 
 
